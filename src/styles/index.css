@@ -24,12 +24,19 @@ body, html {
         margin: 0;
         list-style-type: none;
         overflow: hidden;
+    }
+    nav{
         border: solid transparent;
         border-width: 2px;
-        border-image: linear-gradient(to left, #1d1d1d 0%, rgba(19, 19, 19, 0) 100%) 1;
     }
-
-    .margenes-totales{
+    nav li:not(:first-child) {
+        border-left: 1px solid #1d1d1d; /* Establece el estilo del borde izquierdo según tu diseño */
+    }
+    nav li {
+        padding-left: 5px; /* Añade espacio entre el borde izquierdo y el texto del enlace */
+        padding-right: 5px; /* Añade espacio entre el borde derecho y el texto del enlace */
+    }
+    .padding-header{
         padding-left: 50px;
         padding-right: 50px;
         padding-top: 20px;
