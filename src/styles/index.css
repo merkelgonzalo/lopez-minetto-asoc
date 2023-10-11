@@ -15,6 +15,7 @@ body, html {
         right: 0px;
         background-color: #5db4ab;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.438); /* Agrega la sombra */
+        width: 99.1vw;
     }
     .flexbox-header{
         display: flex;
@@ -44,56 +45,33 @@ body, html {
         padding-bottom: 20px;
     }
     
-    .flexbox-articles-sect1{
+    .flexbox-articles-column{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         width: 99.1vw; /* 100% del ancho de la ventana gráfica */
         height: 100vh; /* 100% del alto de la ventana gráfica */
-    }
-    
-    .flexbox-articles-sect2{
-        display: flex;
-        align-items: center; /* Alineación vertical superior */
-        justify-content: center; /* Alineación horizontal */
-        flex-direction: column; /* Apilado vertical de elementos */
         padding-left: 50px;
         padding-right: 50px;
-        width: 99.1vw;
-        height: 100vh;
     }
 
-    /* Añade margen superior al primer artículo para separarlo visualmente del encabezado */
-    .flexbox-articles-sect2 > div:first-child {
-        margin-top: 20px; /* Ajusta el valor según tu preferencia */
-    }
-
-    /* Mantén el margen inferior de los artículos constante para mantener la distancia entre ellos */
-    .flexbox-articles-sect2 article {
-        margin-bottom: 20px;
-    }
-
-    .margenes-articles-bot {
-        margin-bottom: 20px;
-    }
-
-    .articles-container {
+    .flexbox-articles-column-sinancholargoventanagrafica{
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        flex-direction: row;
-        margin-top: 20px; /* Espacio entre el encabezado y los artículos */
-        width: 100%; /* Asegura que ocupe el ancho completo */
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
     }
     
-    .flexbox-articles-sect3{
+    .flexbox-articles-row {
         display: flex;
-        align-items: flex-start;
-        justify-content: space-evenly;
+        align-items: center;
+        justify-content: space-around;
         flex-direction: row;
-        width: 99.1vw; /* 100% del ancho de la ventana gráfica */
-        height: 80vh; /* 100% del alto de la ventana gráfica */
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 100%; /* Asegura que ocupe el ancho completo */
     }
 
     .flexbox-iconos{
@@ -115,38 +93,17 @@ body, html {
         flex-direction: column;
         gap: 20px;
     }
-    
+
     .parrafo-article{
         text-align: center;
         font-size: large;
-    }
-
-    .parrafo-article-sect2{
-        text-align: center;
-        font-size: large;
-        margin-left: 10%;
-        margin-right: 10%;
+        /* margin-left: 10%;
+        margin-right: 10%; */
     }
     
     .parrafo-footer{
         text-align: center;
         font-size: small;
-    }
-
-    .carousel-center {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .carousel-inner img {
-        margin: 0 auto; /* Esto centra la imagen horizontalmente */
-        border-radius: 20px;
-    }
-
-    .iframe-soundcloud {
-        width: 70vw;
-        height: 10vw;
     }
 
     #margen-izquierdo{
@@ -164,14 +121,8 @@ body, html {
         background-color: #5db4ab;
         color: rgb(0, 0, 0);
         width: 99.1vw; /* 100% del ancho de la ventana gráfica */
-        height: 100vh; /* 100% del alto de la ventana gráfica */
-    }
-
-    #sect3 {
-        background-color: #1d1d1d;
-        color: #fff;
-        width: 99.1vw; /* 100% del ancho de la ventana gráfica */
-        height: 90vh; /* 100% del alto de la ventana gráfica */
+        height: 110vh;
+        padding-top: 10px;
     }
 
     #sect4 {
@@ -228,20 +179,20 @@ body, html {
         color:rgb(0, 0, 0);
     }
 
-    .flexbox-img-sect2{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex-direction: row;
-        margin-top: 20px; /* Espacio entre el encabezado y los artículos */
-        width: 100%; /* Asegura que ocupe el ancho completo */
+    .linea-horizontal-inicio {
+        border-top: 4px solid #5db4ab; /* Establece el grosor y el color de la línea */
+        border-width: 5px;
+        width: 10%;
     }
 
-    .flexbox-img-sect2-column{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+    .linea-horizontal-nosotros {
+        border-top: 4px solid #ffffff; /* Establece el grosor y el color de la línea */
+        border-width: 5px;
+        width: 20%;
+    }
+
+    .iconos-contacto{
+        color: #ffffff;
     }
     
     @keyframes cambiarColor {
