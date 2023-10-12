@@ -215,6 +215,7 @@ html {
         /* Establece el grosor y el color de la línea */
         border-width: 5px;
         width: 10%;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.233);
     }
 
     .linea-horizontal-nosotros {
@@ -222,6 +223,7 @@ html {
         /* Establece el grosor y el color de la línea */
         border-width: 5px;
         width: 20%;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.233);
     }
 
     .iconos-contacto {
