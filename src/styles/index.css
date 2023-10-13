@@ -63,10 +63,6 @@ html {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        width: 99.1vw;
-        /* 100% del ancho de la ventana gráfica */
-        height: 100vh;
-        /* 100% del alto de la ventana gráfica */
         padding-left: 50px;
         padding-right: 50px;
     }
@@ -86,8 +82,6 @@ html {
         flex-direction: row;
         padding-left: 50px;
         padding-right: 50px;
-        width: 100%;
-        /* Asegura que ocupe el ancho completo */
     }
 
     .flexbox-iconos {
@@ -133,15 +127,17 @@ html {
         /* 100% del ancho de la ventana gráfica */
         height: 100vh;
         /* 100% del alto de la ventana gráfica */
+        display: flex;
+        align-items: center;
     }
 
     #sect2 {
         background-color: #5db4ab;
         color: rgb(0, 0, 0);
         width: 99.1vw;
-        /* 100% del ancho de la ventana gráfica */
-        height: 110vh;
         padding-top: 10px;
+        display: flex;
+        align-items: center;
     }
 
     #sect4 {
@@ -216,6 +212,7 @@ html {
         border-width: 5px;
         width: 10%;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.233);
+        margin-bottom: 2%;
     }
 
     .linea-horizontal-nosotros {
@@ -224,6 +221,7 @@ html {
         border-width: 5px;
         width: 20%;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.233);
+        margin-bottom: 2%;
     }
 
     .iconos-contacto {
