@@ -22,6 +22,11 @@ html {
         width: 99.1vw;
     }
 
+    section {
+        height: auto;
+        width: 100%;
+    }
+
     .flexbox-header {
         display: flex;
         justify-content: space-between;
@@ -129,26 +134,17 @@ html {
     #sect1 {
         background-color: #1d1d1d;
         color: #fff;
-        width: 99.1vw;
-        /* 100% del ancho de la ventana gráfica */
-        height: 100vh;
-        /* 100% del alto de la ventana gráfica */
     }
 
     #sect2 {
         background-color: #5db4ab;
         color: rgb(0, 0, 0);
-        width: 99.1vw;
-        /* 100% del ancho de la ventana gráfica */
-        height: 110vh;
         padding-top: 10px;
     }
 
     #sect4 {
         background-color: rgba(255, 255, 255, 0.678);
         padding-top: 10px;
-        width: 99.1vw;
-        /* 100% del ancho de la ventana gráfica */
     }
 
     li {
