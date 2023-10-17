@@ -21,6 +21,7 @@ html {
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.438);
         /* Agrega la sombra */
         width: auto;
+        z-index: 9999;
     }
 
     section {
@@ -259,6 +260,25 @@ html {
         text-shadow: 0 4px 10px rgba(0, 0, 0, 0.438);
     }
 
+    .transparencia {
+        animation-name: anim-fade-in;
+        animation-duration: 1.5s; /* la animacion dura X segundos */
+        animation-delay: 0.7s; /* esperamos X segundos antes de hacer la animacion */			
+        animation-fill-mode: both; /* aplica estilos de la animacion antes y despues de reproducirla */
+    }
+
+    .transparencia-rapida {
+        animation-name: anim-fade-in;
+        animation-duration: 1.5s; /* la animacion dura X segundos */
+        animation-delay: 0.3s; /* esperamos X segundos antes de hacer la animacion */			
+        animation-fill-mode: both; /* aplica estilos de la animacion antes y despues de reproducirla */
+    }
+
+    /* todas las animaciones pausadas */
+    .paused * { 
+        animation-play-state: paused;
+    }
+
     @keyframes bounce {
 
         0%,
@@ -276,14 +296,6 @@ html {
         }
     }
 
-    @keyframes cambiarColor {
-        from {
-            color: #1d1d1d;
-        }
-
-        to {
-            color: #ffffff;
-        }
-    }
-
+    @keyframes anim-fade-in { from { opacity: 0; } to { opacity: 1 } }
+    
 }
