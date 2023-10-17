@@ -139,6 +139,10 @@ html {
         display: flex;
         align-items: center;
         position: relative;
+        background: linear-gradient(-45deg, #1d1d1d, #303030, #000000,#575757);
+	    background-size: 400% 400%;
+	    -webkit-animation: gradient 7s ease infinite;
+	    animation: gradient 7s ease infinite;
     }
 
     #sect2 {
@@ -147,6 +151,10 @@ html {
         display: flex;
         align-items: center;
         height: 100vh;
+        background: linear-gradient(-45deg, #5db4ab, #6fd6cc, #a3d3ce,rgb(89, 170, 162));
+	    background-size: 400% 400%;
+	    -webkit-animation: gradient 7s ease infinite;
+	    animation: gradient 7s ease infinite;
     }
 
     #sect4 {
@@ -249,7 +257,7 @@ html {
         animation-iteration-count: 3s;
         animation-fill-mode: forwards;
         animation-play-state: running;
-        text-shadow: 0 4px 10px #5db4ab;
+        text-shadow: 0 4px 10px #000000;
     }
 
     .sombra-imagen {
@@ -297,5 +305,29 @@ html {
     }
 
     @keyframes anim-fade-in { from { opacity: 0; } to { opacity: 1 } }
+
+    @-webkit-keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
     
 }
