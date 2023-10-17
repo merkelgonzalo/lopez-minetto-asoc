@@ -117,6 +117,11 @@ html {
         margin-right: 10%; */
     }
 
+    .parrafo-article-medium{
+        text-align: center;
+        font-size: medium;
+    }
+
     .parrafo-footer {
         text-align: center;
         font-size: small;
@@ -206,7 +211,7 @@ html {
         transition-timing-function: linear;
     }
 
-    .linea-horizontal-inicio {
+    .linea-horizontal-verde {
         border-top: 4px solid #5db4ab;
         /* Establece el grosor y el color de la línea */
         border-width: 5px;
@@ -215,7 +220,7 @@ html {
         margin-bottom: 2%;
     }
 
-    .linea-horizontal-nosotros {
+    .linea-horizontal-blanca {
         border-top: 4px solid #ebebeb;
         /* Establece el grosor y el color de la línea */
         border-width: 5px;
