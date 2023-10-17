@@ -151,7 +151,7 @@ html {
         display: flex;
         align-items: center;
         height: 100vh;
-        background: linear-gradient(-45deg, #5db4ab, #6fd6cc, #a3d3ce,rgb(89, 170, 162));
+        background: linear-gradient(-45deg, #5db4ab, #7ff3e7, #5db4ab, #4e9790);
 	    background-size: 400% 400%;
 	    -webkit-animation: gradient 7s ease infinite;
 	    animation: gradient 7s ease infinite;
@@ -285,6 +285,97 @@ html {
     /* todas las animaciones pausadas */
     .paused * { 
         animation-play-state: paused;
+    }
+
+    .container {
+        min-width: 700px;
+        min-height: 350px;
+        border-radius: 20px;
+        position: relative;
+        -webkit-transition: 1s ease-in-out;
+        transition: 1s ease-in-out;
+        transform-style: preserve-3d;
+    }
+
+    .side {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        padding: 20px 50px;
+        color: #fff;
+        transform-style: preserve-3d;
+        backface-visibility: hidden;
+        border-radius: 20px;
+    }
+    .content {
+        transform: translatez(70px) scale(0.8);
+        line-height: 1.5em;
+    }
+    .content h1 {
+        position: relative;
+    }
+    .content p {
+        margin-top: 50px;
+        line-height: 2em;
+    }
+    .content h1:before {
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        height: 3px;
+        width: 70px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .front {
+        z-index: 2;
+        background-size: cover;
+        background-image: url(https://d1ih8jugeo2m5m.cloudfront.net/2022/05/derecho-mercantil-1-1200x685.jpg);
+    }
+    .back {
+        background-color: #333;
+        transform: rotateY(180deg);
+        z-index: 0;
+        padding-top: 10px;
+        background-image: url(https://d1ih8jugeo2m5m.cloudfront.net/2022/05/derecho-mercantil-1-1200x685.jpg);
+    }
+    .front2 {
+        z-index: 2;
+        background-size: cover;
+        background-image: url(https://comercioyjusticia.info/wp-content/uploads/2021/08/derecho-penal.jpg);
+    }
+    .back2 {
+        background-color: #333;
+        transform: rotateY(180deg);
+        z-index: 0;
+        padding-top: 10px;
+        background-image: url(https://comercioyjusticia.info/wp-content/uploads/2021/08/derecho-penal.jpg);
+    }
+    .container:hover {
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+    .back h1 {
+        margin: 0;
+    }
+    /* my button style  */
+    .white-mode {
+        text-decoration: none;
+        padding: 7px 10px;
+        background-color: #122;
+        border-radius: 3px;
+        color: #fff;
+        transition: 0.35s ease-in-out;
+        position: fixed;
+        left: 15px;
+        bottom: 15px;
+        font-family: "Montserrat";
+    }
+    
+    .white-mode:hover {
+        background-color: #fff;
+        color: #122;
     }
 
     @keyframes bounce {
