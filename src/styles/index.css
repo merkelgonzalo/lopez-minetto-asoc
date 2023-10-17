@@ -2,12 +2,13 @@
     font-family: 'Lato', sans-serif;
 }
 
-/* #ebebeb #1d1d1 #5db4ab
+/* #ebebeb #1d1d1 #5db4ab */
 
-body,
 html {
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /* ---------- Notebooks y PCs ---------- */
@@ -19,12 +20,12 @@ html {
         background-color: #5db4ab;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.438);
         /* Agrega la sombra */
-        width: 99.1vw;
+        width: auto;
     }
 
     section {
         height: auto;
-        width: 100%;
+        width: auto;
     }
 
     .flexbox-header {
@@ -68,6 +69,7 @@ html {
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        width: 100%;
         padding-left: 50px;
         padding-right: 50px;
     }
@@ -106,7 +108,6 @@ html {
         display: flex;
         align-items: center;
         flex-direction: column;
-        gap: 20px;
     }
 
     .parrafo-article {
@@ -128,19 +129,21 @@ html {
     #sect1 {
         background-color: #1d1d1d;
         color: #fff;
+        height: 90vh;
+        display: flex;
+        align-items: center;
     }
 
     #sect2 {
         background-color: #5db4ab;
         color: rgb(0, 0, 0);
-        padding-top: 10px;
         display: flex;
         align-items: center;
+        height: 100vh;
     }
 
     #sect4 {
         background-color: rgba(255, 255, 255, 0.678);
-        padding-top: 10px;
     }
 
     li {
@@ -174,6 +177,7 @@ html {
     body {
         position: relative;
         margin: 0;
+        min-height: 100vh;
     }
 
     h1 {
