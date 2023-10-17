@@ -138,6 +138,7 @@ html {
         height: 90vh;
         display: flex;
         align-items: center;
+        position: relative;
     }
 
     #sect2 {
