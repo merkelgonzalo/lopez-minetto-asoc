@@ -18,8 +18,8 @@ html {
         position: sticky;
         top: 0px;
         right: 0px;
-        background-color: #5db4abf8;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.438);
+        background-color: #5db4ab;
+        box-shadow: 0 4px 10px #1d1d1d79;
         width: auto;
         z-index: 9999;
     }
@@ -118,7 +118,7 @@ html {
         margin-right: 10%; */
     }
 
-    .parrafo-article-medium{
+    .parrafo-article-medium {
         text-align: center;
         font-size: medium;
     }
@@ -139,10 +139,10 @@ html {
         display: flex;
         align-items: center;
         position: relative;
-        background: linear-gradient(-45deg, #1d1d1d, #303030, #000000,#575757);
-	    background-size: 400% 400%;
-	    -webkit-animation: gradient 7s ease infinite;
-	    animation: gradient 7s ease infinite;
+        background: linear-gradient(-45deg, #1d1d1d, #303030, #000000, #575757);
+        background-size: 400% 400%;
+        -webkit-animation: gradient 7s ease infinite;
+        animation: gradient 7s ease infinite;
     }
 
     #sect2 {
@@ -151,10 +151,10 @@ html {
         display: flex;
         align-items: center;
         height: fit-content;
-        background: linear-gradient(-45deg, #5db4ab, #7ff3e7, #5db4ab, #4e9790);
+        /* background: linear-gradient(-45deg,#5db4ab, #7ff3e7, #5db4ab, #4e9790);
 	    background-size: 400% 400%;
 	    -webkit-animation: gradient 7s ease infinite;
-	    animation: gradient 7s ease infinite;
+	    animation: gradient 7s ease infinite; */
     }
 
     #sect3 {
@@ -164,10 +164,10 @@ html {
         display: flex;
         align-items: center;
         position: relative;
-        background: linear-gradient(-45deg, #1d1d1d, #303030, #000000,#575757);
-	    background-size: 400% 400%;
-	    -webkit-animation: gradient 7s ease infinite;
-	    animation: gradient 7s ease infinite;
+        background: linear-gradient(-45deg, #1d1d1d, #303030, #000000, #575757);
+        background-size: 400% 400%;
+        -webkit-animation: gradient 7s ease infinite;
+        animation: gradient 7s ease infinite;
     }
 
     #sect4 {
@@ -176,10 +176,10 @@ html {
         display: flex;
         align-items: center;
         height: 90vh;
-        background: linear-gradient(-45deg, #5db4ab, #7ff3e7, #5db4ab, #4e9790);
+        /* background: linear-gradient(-45deg, #5db4ab, #7ff3e7, #5db4ab, #4e9790);
 	    background-size: 400% 400%;
 	    -webkit-animation: gradient 7s ease infinite;
-	    animation: gradient 7s ease infinite;
+	    animation: gradient 7s ease infinite; */
     }
 
     #sect5 {
@@ -192,7 +192,7 @@ html {
 
     li a {
         display: block;
-        color: #1d1d1d;
+        color: #000000;
         text-align: center;
         padding: 10px 14px;
         text-decoration: none;
@@ -301,20 +301,26 @@ html {
 
     .transparencia {
         animation-name: anim-fade-in;
-        animation-duration: 1.5s; /* la animacion dura X segundos */
-        animation-delay: 0.7s; /* esperamos X segundos antes de hacer la animacion */			
-        animation-fill-mode: both; /* aplica estilos de la animacion antes y despues de reproducirla */
+        animation-duration: 1.5s;
+        /* la animacion dura X segundos */
+        animation-delay: 0.7s;
+        /* esperamos X segundos antes de hacer la animacion */
+        animation-fill-mode: both;
+        /* aplica estilos de la animacion antes y despues de reproducirla */
     }
 
     .transparencia-rapida {
         animation-name: anim-fade-in;
-        animation-duration: 1.5s; /* la animacion dura X segundos */
-        animation-delay: 0.3s; /* esperamos X segundos antes de hacer la animacion */			
-        animation-fill-mode: both; /* aplica estilos de la animacion antes y despues de reproducirla */
+        animation-duration: 1.5s;
+        /* la animacion dura X segundos */
+        animation-delay: 0.3s;
+        /* esperamos X segundos antes de hacer la animacion */
+        animation-fill-mode: both;
+        /* aplica estilos de la animacion antes y despues de reproducirla */
     }
 
     /* todas las animaciones pausadas */
-    .paused * { 
+    .paused * {
         animation-play-state: paused;
     }
 
@@ -326,87 +332,77 @@ html {
     canvas,
     iframe,
     video {
-    max-width: 100%;
-    height: auto;
-    vertical-align: middle;
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
     }
 
     hr {
-    height: 0;
-    border: 0;
-    border-bottom: 1px solid #ff0000;
-    margin: 0;
+        height: 0;
+        border: 0;
+        border-bottom: 1px solid #ff0000;
+        margin: 0;
     }
 
-    /* body {
-    color: #5c7470;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 32px 0;
-    } */
-
-    /* h1 {
-    font-size: 4rem;
-    margin-top: 0;
-    margin-bottom: 80px;
-    } */
-
     h1 span {
-    color: #000000;
+        color: #000000;
     }
 
     p {
-    margin: 0;
+        margin: 0;
     }
 
     .cards-grid {
-    display: flex;
-    grid-gap: 80px;
-    padding-bottom: 60px;
+        display: flex;
+        grid-gap: 80px;
+        padding-bottom: 60px;
     }
 
     /* FLIP CARD */
     .flip-card {
-    width: 320px;
-    height: 320px;
-    perspective: 2000px;
-    color:#000000;
+        width: 220px;
+        height: 320px;
+        perspective: 2000px;
+        color: #000000;
     }
+
     .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-    border-radius: 28px;
-    transition: all 550ms cubic-bezier(0.1, 0.22, 0.8, 1.13);
-    transform-style: preserve-3d;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        border-radius: 28px;
+        transition: all 550ms cubic-bezier(0.1, 0.22, 0.8, 1.13);
+        transform-style: preserve-3d;
     }
-    .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 28px;
-    backface-visibility: hidden;
-    }
-    .flip-card-front {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
+
+    .flip-card-front,
     .flip-card-back {
-    font-size: 1.25rem;
-    text-align: center;
-    display: grid;
-    place-items: center;
-    padding: 32px;
-    background-color: #d8d8d8;
-    transform: rotateY(180deg);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 28px;
+        backface-visibility: hidden;
     }
+
+    .flip-card-front {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .flip-card-back {
+        font-size: 1.25rem;
+        text-align: center;
+        display: grid;
+        place-items: center;
+        padding: 32px;
+        background-color: #d8d8d8;
+        transform: rotateY(180deg);
+    }
+
     .flip-card:hover .flip-card-inner {
-    transform: rotateY(-180deg);
+        transform: rotateY(-180deg);
     }
 
     @keyframes bounce {
@@ -426,30 +422,48 @@ html {
         }
     }
 
-    @keyframes anim-fade-in { from { opacity: 0; } to { opacity: 1 } }
+    @keyframes anim-fade-in {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1
+        }
+    }
 
     @-webkit-keyframes gradient {
         0% {
             background-position: 0% 50%;
         }
+
         50% {
             background-position: 100% 50%;
         }
+
         100% {
             background-position: 0% 50%;
         }
     }
-    
+
     @keyframes gradient {
         0% {
             background-position: 0% 50%;
         }
+
         50% {
             background-position: 100% 50%;
         }
+
         100% {
             background-position: 0% 50%;
         }
     }
+
+    /**/
+
     
+    
+    /**/
+
 }
