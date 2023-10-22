@@ -175,7 +175,7 @@ html {
         color: rgb(0, 0, 0);
         display: flex;
         align-items: center;
-        height: 90vh;
+        height: fit-content;
         /* background: linear-gradient(-45deg, #5db4ab, #7ff3e7, #5db4ab, #4e9790);
 	    background-size: 400% 400%;
 	    -webkit-animation: gradient 7s ease infinite;
@@ -407,6 +407,19 @@ html {
 
     .flip-card:hover .flip-card-inner {
         transform: rotateY(-180deg);
+    }
+
+    .borde {
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    .desenfoque-img:hover{
+        filter: contrast(120%);
+    }
+
+    .desenfoque-img{
+        filter: saturate(0%) contrast(120%);
     }
 
     @keyframes bounce {
