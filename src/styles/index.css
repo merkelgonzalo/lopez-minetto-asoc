@@ -24,6 +24,10 @@ html {
         z-index: 9999;
     }
 
+    .logo{
+        height: auto;
+    }
+
     section {
         height: auto;
         width: 100vw;
@@ -80,14 +84,14 @@ html {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        padding: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 
     .flexbox-articles-row {
         display: flex;
         align-items: center;
         justify-content: space-around;
-        flex-direction: row;
         padding-left: 50px;
         padding-right: 50px;
     }
@@ -135,7 +139,7 @@ html {
     #sect1 {
         background-color: #1d1d1d;
         color: #fff;
-        height: 80vh;
+        height: 85vh;
         display: flex;
         align-items: center;
         position: relative;
@@ -333,7 +337,7 @@ html {
     iframe,
     video {
         max-width: 100%;
-        height: auto;
+        /* height: auto; */
         vertical-align: middle;
     }
 
@@ -427,25 +431,17 @@ html {
         padding-bottom: 15px;
     }
 
-    .background-contacto{
-        /* border-radius: 20px; */
-        background: linear-gradient(-45deg, #1d1d1d, #303030, #000000, #575757);
-        background-size: 400% 400%;
-        -webkit-animation: gradient 7s ease infinite;
-        animation: gradient 7s ease infinite;
-    }
-
     .parrafo-contacto{
         font-size: large;
         color:#ffffff;
     }
 
     .nombre-ciudad{
-        background: linear-gradient(-45deg, #1d1d1d, #303030, #000000, #575757);
+        background: linear-gradient(-45deg, #ffffff, #9cdbd6, #ffffff, #ffffff);
         background-size: 400% 400%;
         -webkit-animation: gradient 7s ease infinite;
         animation: gradient 7s ease infinite;
-        color: white;
+        color: #5db4ab;
         border-radius: 5px;
     }
 
