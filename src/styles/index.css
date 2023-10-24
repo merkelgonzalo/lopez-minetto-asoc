@@ -288,7 +288,7 @@ html {
         animation-iteration-count: 3s;
         animation-fill-mode: forwards;
         animation-play-state: running;
-        text-shadow: 0 4px 10px #000000;
+        text-shadow: 0 4px 10px #5db4ab;
     }
 
     .sombra-imagen {
@@ -420,6 +420,24 @@ html {
 
     .desenfoque-img{
         filter: saturate(0%) contrast(120%);
+    }
+
+    .padding-contacto{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .background-contacto{
+        /* border-radius: 20px; */
+        background: linear-gradient(-45deg, #1d1d1d, #303030, #000000, #575757);
+        background-size: 400% 400%;
+        -webkit-animation: gradient 7s ease infinite;
+        animation: gradient 7s ease infinite;
+    }
+
+    .parrafo-contacto{
+        font-size: large;
+        color:#ffffff;
     }
 
     @keyframes bounce {
