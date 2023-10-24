@@ -440,6 +440,15 @@ html {
         color:#ffffff;
     }
 
+    .nombre-ciudad{
+        background: linear-gradient(-45deg, #1d1d1d, #303030, #000000, #575757);
+        background-size: 400% 400%;
+        -webkit-animation: gradient 7s ease infinite;
+        animation: gradient 7s ease infinite;
+        color: white;
+        border-radius: 5px;
+    }
+
     @keyframes bounce {
 
         0%,
