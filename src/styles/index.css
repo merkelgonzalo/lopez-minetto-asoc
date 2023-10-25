@@ -421,14 +421,6 @@ html {
         margin-bottom: 20px;
     }
 
-    .desenfoque-img:hover{
-        filter: contrast(120%);
-    }
-
-    .desenfoque-img{
-        filter: saturate(0%) contrast(120%);
-    }
-
     .padding-contacto{
         padding-top: 15px;
         padding-bottom: 15px;
