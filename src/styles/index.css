@@ -51,7 +51,7 @@ html {
     }
 
     nav li:not(:first-child) {
-        border-left: 1px solid #ebebeb;
+        border-left: 1px solid #5db4ab;
         /* Establece el estilo del borde izquierdo según tu diseño */
     }
 
@@ -118,6 +118,7 @@ html {
     .parrafo-article {
         text-align: center;
         font-size: large;
+        color: white;
         /* margin-left: 10%;
         margin-right: 10%; */
     }
@@ -136,17 +137,20 @@ html {
         padding-left: 70px;
     }
 
-    #sect1 {
-        background-color: #1d1d1d;
+    #sect0 {
         color: #fff;
-        height: 85vh;
-        display: flex;
-        align-items: center;
-        position: relative;
+        height: auto;
         background: linear-gradient(-45deg, #1d1d1d, #303030, #000000, #575757);
         background-size: 400% 400%;
         -webkit-animation: gradient 7s ease infinite;
         animation: gradient 7s ease infinite;
+    }
+
+    #sect1 {
+        height: 85vh;
+        display: flex;
+        align-items: center;
+        position: relative;
     }
 
     #sect2 {
@@ -196,7 +200,7 @@ html {
 
     li a {
         display: block;
-        color: #000000;
+        color: #ffffff;
         text-align: center;
         padding: 10px 14px;
         text-decoration: none;
@@ -209,7 +213,7 @@ html {
     }
 
     li a:hover {
-        color: rgb(255, 255, 255);
+        color: #5db4ab;
     }
 
     li a:active {
@@ -497,7 +501,7 @@ html {
         background-image: linear-gradient(-225deg,
                 #ffffff 0%,
                 #ffffff 29%,
-                #323232 67%,
+                #ffffff13 67%,
                 #ffffff 100%);
         background-size: auto auto;
         background-clip: border-box;
