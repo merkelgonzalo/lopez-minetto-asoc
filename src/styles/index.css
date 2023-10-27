@@ -154,15 +154,28 @@ html {
     }
 
     #sect2 {
-        background-color: #5db4ab;
-        color: rgb(0, 0, 0);
+        /* background-color: #5db4ab;
+        color: rgb(0, 0, 0); */
         display: flex;
         align-items: center;
         height: fit-content;
+        position: relative;
         /* background: linear-gradient(-45deg,#5db4ab, #7ff3e7, #5db4ab, #4e9790);
 	    background-size: 400% 400%;
 	    -webkit-animation: gradient 7s ease infinite;
 	    animation: gradient 7s ease infinite; */
+    }
+
+    .video-background{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 0;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #sect3 {
@@ -184,6 +197,7 @@ html {
         display: flex;
         align-items: center;
         height: fit-content;
+        position: relative;
         /* background: linear-gradient(-45deg, #5db4ab, #7ff3e7, #5db4ab, #4e9790);
 	    background-size: 400% 400%;
 	    -webkit-animation: gradient 7s ease infinite;
@@ -235,6 +249,7 @@ html {
         text-align: center;
         font-size: xx-large;
         text-shadow: 0 4px 10px rgba(0, 0, 0, 0.233);
+        z-index: 1;
     }
 
     h2 {
@@ -266,6 +281,7 @@ html {
         width: 10%;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.233);
         margin-bottom: 2%;
+        z-index: 1;
     }
 
     .linea-horizontal-blanca {
@@ -275,6 +291,7 @@ html {
         width: 10%;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.233);
         margin-bottom: 2%;
+        z-index: 1;
     }
 
     .iconos-contacto {
