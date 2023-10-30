@@ -53,6 +53,7 @@ html {
     nav li:not(:first-child) {
         border-left: 1px solid #1d1d1d;
         /* Establece el estilo del borde izquierdo según tu diseño */
+        z-index: 1;
     }
 
     nav li {
@@ -75,8 +76,8 @@ html {
         justify-content: center;
         flex-direction: column;
         width: 100%;
-        padding-left: 50px;
-        padding-right: 50px;
+        /* padding-left: 50px;
+        padding-right: 50px; */
     }
 
     .flexbox-articles-column-sinancholargoventanagrafica {
@@ -84,16 +85,18 @@ html {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        padding-left: 50px;
-        padding-right: 50px;
+        /* padding-left: 50px;
+        padding-right: 50px; */
+        width: auto;
     }
 
     .flexbox-articles-row {
         display: flex;
         align-items: center;
         justify-content: space-around;
-        padding-left: 50px;
-        padding-right: 50px;
+        /* padding-left: 50px;
+        padding-right: 50px; */
+        width: 100%;
     }
 
     .flexbox-iconos {
@@ -173,7 +176,7 @@ html {
         object-fit: cover;
     }
 
-    .img-sect1{
+    img{
         height: auto;
         max-width: 100%;
     }
@@ -382,6 +385,8 @@ html {
         display: flex;
         grid-gap: 80px;
         padding-bottom: 20px;
+        width: 100%;
+        justify-content: center;
     }
 
     /* FLIP CARD */
