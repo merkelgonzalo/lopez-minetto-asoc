@@ -14,6 +14,7 @@ html {
 
 /* ---------- Notebooks y PCs ---------- */
 @media only screen and (min-width: 992px) {
+
     header {
         position: sticky;
         top: 0px;
@@ -76,8 +77,6 @@ html {
         justify-content: center;
         flex-direction: column;
         width: 100%;
-        /* padding-left: 50px;
-        padding-right: 50px; */
     }
 
     .flexbox-articles-column-sinancholargoventanagrafica {
@@ -90,13 +89,22 @@ html {
         width: auto;
     }
 
-    .flexbox-articles-row {
+    .flexbox-articles-row-inicio {
         display: flex;
         align-items: center;
         justify-content: space-around;
         /* padding-left: 50px;
         padding-right: 50px; */
-        width: 100%;
+        width: 90%;
+    }
+
+    .flexbox-articles-row-nosotros {
+        display: flex;
+        align-items: start;
+        justify-content: space-around;
+        /* padding-left: 50px;
+        padding-right: 50px; */
+        width: 90%;
     }
 
     .flexbox-iconos {
@@ -112,6 +120,11 @@ html {
         margin-bottom: -1px;
     }
 
+    .padding-nosotros{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
     .flexbox-footer {
         display: flex;
         align-items: center;
@@ -122,13 +135,13 @@ html {
         text-align: center;
         font-size: large;
         color: white;
-        /* margin-left: 10%;
-        margin-right: 10%; */
     }
 
     .parrafo-article-medium {
         text-align: center;
         font-size: medium;
+        padding-right: 10%;
+        padding-left: 10%;
     }
 
     .parrafo-footer {
