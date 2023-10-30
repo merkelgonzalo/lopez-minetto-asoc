@@ -84,8 +84,6 @@ html {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        /* padding-left: 50px;
-        padding-right: 50px; */
         width: auto;
     }
 
@@ -105,6 +103,24 @@ html {
         /* padding-left: 50px;
         padding-right: 50px; */
         width: 90%;
+    }
+
+    .flexbox-articles-row-contacto {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* padding-left: 50px;
+        padding-right: 50px; */
+        width: 70%;
+    }
+
+    .flexbox-articles-row-contacto2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* padding-left: 50px;
+        padding-right: 50px; */
+        width: 70%;
     }
 
     .flexbox-iconos {
