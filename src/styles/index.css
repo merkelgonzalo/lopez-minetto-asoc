@@ -51,7 +51,7 @@ html {
     }
 
     nav li:not(:first-child) {
-        border-left: 1px solid #5db4ab;
+        border-left: 1px solid #1d1d1d;
         /* Establece el estilo del borde izquierdo según tu diseño */
     }
 
@@ -165,16 +165,25 @@ html {
 	    animation: gradient 7s ease infinite; */
     }
 
-    .video-background{
+    .video-background-sect1{
         position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
         z-index: 0;
-        overflow: hidden;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .img-sect1{
+        height: auto;
+        max-width: 100%;
+    }
+
+    .video-background-sect2{
+        position: absolute;
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     #sect3 {
@@ -213,7 +222,7 @@ html {
 
     li a {
         display: block;
-        color: #ffffff;
+        color: #1d1d1d;
         text-align: center;
         padding: 10px 14px;
         text-decoration: none;
@@ -226,7 +235,7 @@ html {
     }
 
     li a:hover {
-        color: #5db4ab;
+        color: #ffffff;
     }
 
     li a:active {
@@ -356,9 +365,9 @@ html {
     canvas,
     iframe,
     video {
-        max-width: 100%;
-        /* height: auto; */
-        vertical-align: middle;
+        /* max-width: 100%;
+        height: auto;
+        vertical-align: middle; */
     }
 
     hr {
@@ -448,12 +457,7 @@ html {
 
     .parrafo-contacto{
         font-size: large;
-        color:#ffffff;
-    }
-
-    .nombre-ciudad{
-        color: #ffffff;
-        border-radius: 5px;
+        color:#000000;
     }
 
     @keyframes bounce {
