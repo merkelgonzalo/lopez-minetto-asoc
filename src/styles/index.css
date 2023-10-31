@@ -664,6 +664,7 @@ html {
         /* padding-left: 50px;
         padding-right: 50px; */
         width: 90%;
+        flex-direction: column;
     }
 
     .flexbox-articles-row-contacto {
@@ -773,7 +774,7 @@ html {
     #sect3 {
         background-color: #1d1d1d;
         color: #fff;
-        height: 90vh;
+        height: fit;
         display: flex;
         align-items: center;
         position: relative;
@@ -972,16 +973,18 @@ html {
 
     .cards-grid {
         display: flex;
-        grid-gap: 80px;
+        grid-gap: 20px;
         padding-bottom: 20px;
         width: 100%;
         justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     /* FLIP CARD */
     .flip-card {
         width: 220px;
-        height: 320px;
+        height: 240px;
         perspective: 2000px;
         color: #000000;
     }
