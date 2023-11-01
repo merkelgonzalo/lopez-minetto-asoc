@@ -674,6 +674,8 @@ html {
         /* padding-left: 50px;
         padding-right: 50px; */
         width: 60%;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 
     .flexbox-articles-row-contacto2 {
@@ -683,6 +685,7 @@ html {
         /* padding-left: 50px;
         padding-right: 50px; */
         width: 50%;
+        flex-direction: column-reverse;
     }
 
     .flexbox-iconos {
