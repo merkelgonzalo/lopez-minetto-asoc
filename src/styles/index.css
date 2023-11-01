@@ -216,16 +216,16 @@ html {
     }
 
     #sect3 {
-        background-color: #1d1d1d;
+        /* background-color: #1d1d1d; */
         color: #fff;
         height: 90vh;
         display: flex;
         align-items: center;
         position: relative;
-        background: linear-gradient(-45deg, #1d1d1d, #303030, #000000, #575757);
+        /* background: linear-gradient(-45deg, #1d1d1d, #303030, #000000, #575757);
         background-size: 400% 400%;
         -webkit-animation: gradient 7s ease infinite;
-        animation: gradient 7s ease infinite;
+        animation: gradient 7s ease infinite; */
     }
 
     #sect4 {
@@ -1187,8 +1187,8 @@ html {
         position:fixed;
         width:60px;
         height:60px;
-        bottom:8%;
-        right:10%;
+        bottom:5%;
+        right:5%;
         background-color:#25D366;
         border-radius:50px;
         text-align:center;
