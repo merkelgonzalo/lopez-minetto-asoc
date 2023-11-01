@@ -774,10 +774,10 @@ html {
     #sect1 {
         height: min-content;
         position: relative;
-        background: linear-gradient(-45deg, #1d1d1d, #303030, #000000, #575757);
+        /* background: linear-gradient(-45deg, #1d1d1d, #303030, #000000, #575757);
         background-size: 400% 400%;
         -webkit-animation: gradient 7s ease infinite;
-        animation: gradient 7s ease infinite;
+        animation: gradient 7s ease infinite; */
         margin-bottom: 10px;
     }
 
@@ -809,16 +809,16 @@ html {
     }
 
     #sect3 {
-        background-color: #1d1d1d;
+        /* background-color: #1d1d1d; */
         color: #fff;
         height: min-content;
         display: flex;
         align-items: center;
         position: relative;
-        background: linear-gradient(-45deg, #1d1d1d, #303030, #000000, #575757);
+        /* background: linear-gradient(-45deg, #1d1d1d, #303030, #000000, #575757);
         background-size: 400% 400%;
         -webkit-animation: gradient 7s ease infinite;
-        animation: gradient 7s ease infinite;
+        animation: gradient 7s ease infinite; */
         margin-bottom: 10px;
     }
 
