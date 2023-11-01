@@ -805,6 +805,10 @@ html {
         background-color: rgba(255, 255, 255, 0.678);
     }
 
+    .img-tamaño-celular{
+        width: 60%;
+    }
+
     li {
         float: left;
     }
@@ -972,6 +976,10 @@ html {
     }
 
     .chiquito{
+        font-size:small;
+    }
+
+    .chiquito-celular{
         font-size:small;
     }
 
