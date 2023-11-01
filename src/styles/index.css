@@ -660,7 +660,6 @@ html {
 
     .flexbox-articles-row-nosotros {
         display: flex;
-        align-items: start;
         justify-content: space-around;
         flex-direction: column;
         /* padding-left: 50px;
@@ -778,7 +777,7 @@ html {
     #sect3 {
         background-color: #1d1d1d;
         color: #fff;
-        height: 90vh;
+        height: min-content;
         display: flex;
         align-items: center;
         position: relative;
@@ -985,17 +984,18 @@ html {
 
     .cards-grid {
         display: flex;
-        grid-gap: 80px;
+        grid-gap: 20px;
         padding-bottom: 20px;
         width: 100%;
         justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     /* FLIP CARD */
     .flip-card {
-        width: 220px;
-        height: 320px;
-        perspective: 2000px;
+        width: 200px;
+        height: 300px;
         color: #000000;
     }
 
