@@ -11,10 +11,6 @@ body {
   padding: 0;
 }
 
-.background--blur {
-  background: #004d40;
-}
-
 .menu {
   font-size:2em;
   font-family: 'Roboto', sans-serif;
