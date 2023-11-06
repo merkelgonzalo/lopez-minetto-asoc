@@ -628,6 +628,7 @@ html {
         display: flex;
         align-items: center;
         justify-content: center;
+        justify-content: space-around;
     }
 
     .logo {
@@ -1011,6 +1012,10 @@ html {
         font-size: small;
     }
 
+    .padding-contrabootstrap{
+        padding-top: 1rem;
+    }
+
     .cards-grid {
         display: flex;
         grid-gap: 20px;
@@ -1024,7 +1029,7 @@ html {
     /* FLIP CARD */
     .flip-card {
         width: 220px;
-        height: 320px;
+        height: 220px;
         perspective: 2000px;
         color: #000000;
     }
@@ -1059,10 +1064,11 @@ html {
 
     .flip-card-back {
         font-size: 1.25rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         text-align: center;
-        display: grid;
-        place-items: center;
-        padding: 32px;
+        padding: 20px;
         background-color: #d8d8d8;
         transform: rotateY(180deg);
     }
@@ -1239,7 +1245,7 @@ html {
     #mobile-menu-button {
         display: flex;
         align-items: center;
-        padding-top: 5%;
+        padding-top: 50%;
     }
 
     .nav-group {
@@ -1249,6 +1255,7 @@ html {
     #mobile-menu.show {
         display: flex;
         justify-content: center;
+        flex-direction: column;
     }
 
 
