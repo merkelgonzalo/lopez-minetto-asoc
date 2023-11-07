@@ -620,7 +620,6 @@ html {
         background-color: #5db4ab;
         width: 100%;
         z-index: 9999;
-        margin-bottom: 10px;
         padding-bottom: 10px;
     }
 
@@ -783,7 +782,6 @@ html {
         background-size: 400% 400%;
         -webkit-animation: gradient 7s ease infinite;
         animation: gradient 7s ease infinite; */
-        margin-bottom: 10px;
     }
 
     #sect2 {
@@ -797,7 +795,6 @@ html {
 	    background-size: 400% 400%;
 	    -webkit-animation: gradient 7s ease infinite;
 	    animation: gradient 7s ease infinite; */
-        margin-bottom: 10px;
     }
 
     .video-background {
@@ -824,7 +821,6 @@ html {
         background-size: 400% 400%;
         -webkit-animation: gradient 7s ease infinite;
         animation: gradient 7s ease infinite; */
-        margin-bottom: 10px;
     }
 
     #sect4 {
