@@ -110,6 +110,15 @@ html {
         width: 90%;
     }
 
+    .flexbox-articles-row-nosotros2 {
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        gap: 3%;
+        padding-bottom: 1%;
+        align-items: center;
+    }
+
     .flexbox-articles-row-contacto {
         display: flex;
         align-items: center;
@@ -156,6 +165,13 @@ html {
         text-align: center;
         font-size: large;
         color: white;
+    }
+
+    .parrafo-article2 {
+        text-align: center;
+        font-size: large;
+        color: white;
+        width: 50%;
     }
 
     .parrafo-article-medium {
@@ -328,6 +344,15 @@ html {
         border-width: 5px;
         width: 10%;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.233);
+        margin-bottom: 2%;
+        z-index: 1;
+    }
+
+    .linea-horizontal-blanca2 {
+        border-top: 1px solid #ebebeb;
+        /* Establece el grosor y el color de la línea */
+        border-width: 1px;
+        width: 20%;
         margin-bottom: 2%;
         z-index: 1;
     }
