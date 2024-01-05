@@ -81,6 +81,7 @@ html {
         justify-content: center;
         flex-direction: column;
         width: 100%;
+        z-index: 2;
     }
 
     .flexbox-articles-column-sinancholargoventanagrafica {
@@ -89,6 +90,7 @@ html {
         justify-content: center;
         flex-direction: column;
         width: auto;
+        z-index: 2;
     }
 
     .flexbox-articles-row-inicio {
@@ -315,6 +317,7 @@ html {
         font-family: 'Lora', sans-serif;
         margin: 0;
         text-shadow: 0 4px 10px rgba(0, 0, 0, 0.233);
+        padding-bottom: 2%;
     }
 
     h3 {
@@ -513,6 +516,13 @@ html {
         padding-bottom: 15px;
     }
 
+    .padding-contacto2{
+        padding-bottom: 1%;
+        padding-left: 20%;
+        padding-right: 20%;
+        text-align: center;
+    }
+
     .parrafo-contacto {
         font-size: large;
         color: #000000;
@@ -701,6 +711,7 @@ html {
         width: 100%;
         padding-top: 5%;
         padding-bottom: 5%;
+        z-index: 2;
     }
 
     .padding-negativo{
@@ -714,10 +725,12 @@ html {
         justify-content: center;
         flex-direction: column;
         width: auto;
+        z-index: 2;
     }
 
     .flexbox-articles-row-inicio {
         width: 80%;
+        z-index: 2;
     }
 
     .flexbox-articles-row-nosotros {
@@ -728,6 +741,7 @@ html {
         padding-right: 50px; */
         width: 90%;
         flex-direction: column;
+        z-index: 2;
     }
 
     .flexbox-articles-row-contacto {
@@ -739,6 +753,7 @@ html {
         width: 60%;
         flex-direction: column;
         flex-wrap: wrap;
+        z-index: 2;
     }
 
     .flexbox-articles-row-contacto2 {
@@ -749,6 +764,7 @@ html {
         padding-right: 50px; */
         width: 50%;
         flex-direction: column-reverse;
+        z-index: 2;
     }
 
     .flexbox-iconos {
@@ -917,6 +933,7 @@ html {
         font-family: 'Lora', sans-serif;
         margin: 0;
         text-shadow: 0 4px 10px rgba(0, 0, 0, 0.233);
+        text-align: center;
     }
 
     h3 {
@@ -939,7 +956,7 @@ html {
         border-top: 4px solid #5db4ab;
         /* Establece el grosor y el color de la línea */
         border-width: 5px;
-        width: 10%;
+        width: 15%;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.233);
         margin-bottom: 5%;
         z-index: 1;
@@ -949,7 +966,7 @@ html {
         border-top: 4px solid #ebebeb;
         /* Establece el grosor y el color de la línea */
         border-width: 5px;
-        width: 10%;
+        width: 15%;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.233);
         margin-bottom: 5%;
         z-index: 1;
@@ -1314,5 +1331,11 @@ html {
         background-color: #CFD8DC;
     }
 
+    .padding-contacto2{
+        padding-bottom: 1%;
+        padding-left: 20%;
+        padding-right: 20%;
+        text-align: center;
+    }
 
 }
