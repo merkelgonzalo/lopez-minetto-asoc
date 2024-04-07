@@ -9,7 +9,10 @@ html {
     padding: 0;
     width: 100vw;
     height: 100vh;
-    background-color: #5db4ab;
+}
+
+main{
+    background-color: #1d1d1d;
 }
 
 /* ---------- Notebooks y PCs ---------- */
@@ -97,8 +100,6 @@ html {
         display: flex;
         align-items: center;
         justify-content: space-around;
-        /* padding-left: 50px;
-        padding-right: 50px; */
         width: 90%;
         z-index: 2;
     }
@@ -108,8 +109,6 @@ html {
         align-items: start;
         justify-content: space-around;
         flex-direction: row;
-        /* padding-left: 50px;
-        padding-right: 50px; */
         width: 90%;
         z-index: 2;
     }
@@ -128,8 +127,6 @@ html {
         display: flex;
         align-items: center;
         justify-content: space-around;
-        /* padding-left: 50px;
-        padding-right: 50px; */
         width: 60%;
         z-index: 2;
     }
@@ -138,8 +135,6 @@ html {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        /* padding-left: 50px;
-        padding-right: 50px; */
         width: 50%;
         z-index: 2;
     }
@@ -199,10 +194,6 @@ html {
 
     #sect0 {
         height: auto;
-        /* background: linear-gradient(-45deg, #1d1d1d, #303030, #000000, #575757);
-        background-size: 400% 400%;
-        -webkit-animation: gradient 7s ease infinite;
-        animation: gradient 7s ease infinite; */
     }
 
     #sect1 {
@@ -210,27 +201,25 @@ html {
         display: flex;
         align-items: center;
         position: relative;
+        color: white;
     }
 
     #sect2 {
-        /* background-color: #5db4ab;
-        color: rgb(0, 0, 0); */
+        background-color: #5db4abaf;
+        z-index: 10;
         display: flex;
         align-items: center;
         height: fit-content;
         position: relative;
-        /* background: linear-gradient(-45deg,#5db4ab, #7ff3e7, #5db4ab, #4e9790);
-	    background-size: 400% 400%;
-	    -webkit-animation: gradient 7s ease infinite;
-	    animation: gradient 7s ease infinite; */
     }
 
     .video-background {
-        position: absolute;
+        position: fixed;
         z-index: 0;
-        width: 100%;
-        height: 100%;
+        min-width: 100%;
+        min-height: 100%;
         object-fit: cover;
+        opacity: 0.5;
     }
 
     img {
@@ -239,33 +228,31 @@ html {
     }
 
     #sect3 {
-        /* background-color: #1d1d1d; */
         color: #fff;
         height: 90vh;
         display: flex;
         align-items: center;
         position: relative;
-        /* background: linear-gradient(-45deg, #1d1d1d, #303030, #000000, #575757);
-        background-size: 400% 400%;
-        -webkit-animation: gradient 7s ease infinite;
-        animation: gradient 7s ease infinite; */
     }
 
     #sect4 {
-        background-color: #5db4ab;
+        background-color: #5db4abaf;
+        z-index: 10;
         color: rgb(0, 0, 0);
         display: flex;
         align-items: center;
         height: fit-content;
         position: relative;
-        /* background: linear-gradient(-45deg, #5db4ab, #7ff3e7, #5db4ab, #4e9790);
-	    background-size: 400% 400%;
-	    -webkit-animation: gradient 7s ease infinite;
-	    animation: gradient 7s ease infinite; */
     }
 
     #sect5 {
         background-color: rgba(255, 255, 255, 0.678);
+        z-index: 10;
+        color: rgb(0, 0, 0);
+        display: flex;
+        align-items: center;
+        height: fit-content;
+        position: relative;
     }
 
     li {
@@ -318,6 +305,7 @@ html {
         margin: 0;
         text-shadow: 0 4px 10px rgba(0, 0, 0, 0.233);
         padding-bottom: 2%;
+        text-align: center;
     }
 
     h3 {
@@ -586,10 +574,11 @@ html {
     /**/
 
     .animate-charcter {
-        background-image: linear-gradient(-225deg,
+        /*Animacion para los titulos*/
+        /* background-image: linear-gradient(-225deg,
                 #ffffff 0%,
                 #ffffff 29%,
-                #ffffff13 67%,
+                #ffffff 67%,
                 #ffffff 100%);
         background-size: auto auto;
         background-clip: border-box;
@@ -598,11 +587,12 @@ html {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         animation: textclip 7s linear infinite;
-        display: inline-block;
+        display: inline-block; */
     }
 
     .animate-charcter2 {
-        background-image: linear-gradient(-225deg,
+        /*Animacion para los titulos*/
+        /* background-image: linear-gradient(-225deg,
                 #1d1d1d 0%,
                 #1d1d1d 29%,
                 #8baeab 67%,
@@ -614,7 +604,7 @@ html {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         animation: textclip 7s linear infinite;
-        display: inline-block;
+        display: inline-block; */
     }
 
     @keyframes textclip {
@@ -629,8 +619,6 @@ html {
         position: fixed;
         width: 60px;
         height: 60px;
-        /* bottom:40px;
-        right:40px; */
         background-color: #25D366;
         border-radius: 50px;
         text-align: center;
@@ -738,8 +726,6 @@ html {
         display: flex;
         justify-content: space-around;
         flex-direction: column;
-        /* padding-left: 50px;
-        padding-right: 50px; */
         width: 90%;
         flex-direction: column;
         z-index: 2;
@@ -749,8 +735,6 @@ html {
         display: flex;
         align-items: center;
         justify-content: space-around;
-        /* padding-left: 50px;
-        padding-right: 50px; */
         width: 60%;
         flex-direction: column;
         flex-wrap: wrap;
@@ -761,8 +745,6 @@ html {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        /* padding-left: 50px;
-        padding-right: 50px; */
         width: 50%;
         flex-direction: column-reverse;
         z-index: 2;
@@ -816,40 +798,38 @@ html {
 
     #sect0 {
         height: auto;
-        /* background: linear-gradient(-45deg, #1d1d1d, #303030, #000000, #575757);
-        background-size: 400% 400%;
-        -webkit-animation: gradient 7s ease infinite;
-        animation: gradient 7s ease infinite; */
     }
 
     #sect1 {
         height: min-content;
         position: relative;
-        /* background: linear-gradient(-45deg, #1d1d1d, #303030, #000000, #575757);
-        background-size: 400% 400%;
-        -webkit-animation: gradient 7s ease infinite;
-        animation: gradient 7s ease infinite; */
+        height: 90vh;
+        color: white;
+    }
+
+    .sect1-celular{
+        height: 80vh;
+        justify-content: center;
     }
 
     #sect2 {
-        /* background-color: #5db4ab;
-        color: rgb(0, 0, 0); */
+        background-color: #5db4abaf;
+        z-index: 10;
         display: flex;
         align-items: center;
         height: fit-content;
         position: relative;
-        /* background: linear-gradient(-45deg,#5db4ab, #7ff3e7, #5db4ab, #4e9790);
-	    background-size: 400% 400%;
-	    -webkit-animation: gradient 7s ease infinite;
-	    animation: gradient 7s ease infinite; */
     }
 
     .video-background {
-        position: absolute;
+        position: fixed;
+        top: 0;
+        left: 0;
         z-index: 0;
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
         object-fit: cover;
+        opacity: 0.5;
     }
 
     img {
@@ -858,33 +838,31 @@ html {
     }
 
     #sect3 {
-        /* background-color: #1d1d1d; */
         color: #fff;
         height: min-content;
         display: flex;
         align-items: center;
         position: relative;
-        /* background: linear-gradient(-45deg, #1d1d1d, #303030, #000000, #575757);
-        background-size: 400% 400%;
-        -webkit-animation: gradient 7s ease infinite;
-        animation: gradient 7s ease infinite; */
     }
 
     #sect4 {
-        background-color: #5db4ab;
+        background-color: #5db4abaf;
+        z-index: 10;
         color: rgb(0, 0, 0);
         display: flex;
         align-items: center;
         height: fit-content;
         position: relative;
-        /* background: linear-gradient(-45deg, #5db4ab, #7ff3e7, #5db4ab, #4e9790);
-	    background-size: 400% 400%;
-	    -webkit-animation: gradient 7s ease infinite;
-	    animation: gradient 7s ease infinite; */
     }
 
     #sect5 {
         background-color: rgba(255, 255, 255, 0.678);
+        z-index: 10;
+        color: rgb(0, 0, 0);
+        display: flex;
+        align-items: center;
+        height: fit-content;
+        position: relative;
     }
 
     .img-tamaño-celular {
@@ -1187,7 +1165,7 @@ html {
     /**/
 
     .animate-charcter {
-        background-image: linear-gradient(-225deg,
+        /* background-image: linear-gradient(-225deg,
                 #ffffff 0%,
                 #ffffff 29%,
                 #ffffff13 67%,
@@ -1199,11 +1177,11 @@ html {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         animation: textclip 7s linear infinite;
-        display: inline-block;
+        display: inline-block; */
     }
 
     .animate-charcter2 {
-        background-image: linear-gradient(-225deg,
+        /* background-image: linear-gradient(-225deg,
                 #1d1d1d 0%,
                 #1d1d1d 29%,
                 #8baeab 67%,
@@ -1215,7 +1193,7 @@ html {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         animation: textclip 7s linear infinite;
-        display: inline-block;
+        display: inline-block; */
     }
 
     @keyframes textclip {
